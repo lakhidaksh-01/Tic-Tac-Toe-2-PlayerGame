@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic-Tac-Toe</title>
+</head>
+<body><h1 class="game-title">Tic-Tac-Toe: 2 Player Game</h1>
+
+    <div class="container">
+        <div class="game">
+            <div class="msg-container hide"><p id="msg">Winner</p></div>
+            <div class="turn">
+                <div class="t-box">X</div>
+                <div class="t-box">O</div>
+            </div>
+            <div class="grid">
+                <div class="box">0</div>
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+            </div>
+            <button onclick="resetfun()">Reset game</button>
+        </div>
+        <div class="instructions">
+            <h3>How to Play</h3>
+            <ol>
+                <li>Player X always starts first. The active player's turn is indicated by the red highlight.</li>
+                <li>Click on any empty box to make your move. The game alternates between Player X and Player O.</li>
+                <li>To start a new game, click the <strong>Reset Game</strong> button.</li>
+                <li>The game ends when a player gets three marks in a row, column, or diagonal, or when all boxes are filled (resulting in a tie).</li>
+            </ol>
+        </div>        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
