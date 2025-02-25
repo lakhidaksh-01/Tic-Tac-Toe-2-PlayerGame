@@ -22,5 +22,10 @@ A simple **Tic-Tac-Toe** game built using **HTML, CSS, and JavaScript**. It allo
 - **CSS** - For styling and responsiveness  
 - **JavaScript** - For game logic and interactions  
 
+## 📷 Screenshot
+
+![Tic-Tac-Toe Screenshot](screenshot.png)  
+
 ## Contact
+
 For any queries or suggestions, feel free to contact me via [dakshlakhi01@gmail.com](mailto:dakshlakhi01@gmail.com).
